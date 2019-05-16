@@ -60,7 +60,7 @@
   }
 
   .welcome-content {
-    margin: 22px 0px;
+    margin: 16px 0px;
     padding-bottom: 10px;
     border-bottom: 3px dashed grey;
   }
@@ -68,14 +68,22 @@
   .btn {
     .button();
   }
+
 }
 
 // home
 
+.divider {
+  border-bottom: 2px dashed @navigation-border;
+  max-width: 1000px;
+  width: 100%;
+
+}
+
 @media @mobile {
   .home {
-    .header-img {
-      margin-top: -26px;
-    }
+    max-width: 450px;
+    width:100%;
+    margin: 0px auto;
   }
 }
