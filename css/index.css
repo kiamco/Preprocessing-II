@@ -297,4 +297,21 @@ img {
     width: 100%;
     margin: 0px auto;
   }
+  .home .content-section {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+  }
+  .home .content-section .text-content {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .home .content-section .img-content {
+    width: 99%;
+    margin: auto auto;
+  }
+  .home .content-section .inverse-content {
+    display: flex;
+    flex-flow: column-reverse wrap;
+  }
 }
