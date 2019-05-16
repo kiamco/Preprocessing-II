@@ -1,1 +1,18 @@
 // Mixins in here
+
+.flex(@direction: row, @wrap: wrap) {
+    display: flex;
+    flex-flow: @direction @wrap;
+}
+
+.button(@bg:@button-bg,@text-color:@main-bg) {
+    padding: 12px 32px;
+    background: @bg;
+    color: @text-color;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 4px;
+    margin-right: 83px;
+    border-radius: 1em;
+    width: 83%;
+}
