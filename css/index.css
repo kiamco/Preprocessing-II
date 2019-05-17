@@ -310,7 +310,7 @@ img {
     width: 99%;
     margin: auto auto;
   }
-  .home .content-section .inverse-content {
+  .home .content-section.inverse-content {
     display: flex;
     flex-flow: column-reverse wrap;
   }
