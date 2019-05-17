@@ -314,4 +314,21 @@ img {
     display: flex;
     flex-flow: column-reverse wrap;
   }
+  .home .content-destination {
+    width: 100%;
+  }
+  .home .content-pick {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+  }
+  .home .content-pick .destination {
+    width: 75%;
+    margin: auto 0px;
+  }
+  .home .btn {
+    width: 100%;
+    margin: auto 0px;
+    margin-bottom: 30px;
+  }
 }
